@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>428</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>411</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Endereço</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>80</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cidade</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Estado</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>80</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bairro</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edt_bairro">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>100</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="combo_cidade">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>100</y>
+       <width>161</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edt_rua">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>181</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edt_numero">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>50</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edt_complemento">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>50</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Rua</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Número</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>30</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Complemento</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="combo_estado">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AM</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GO</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MG</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>PA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>PB</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>PR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>PE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>PI</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RO</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TO</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>411</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Informações Principais</string>
+    </property>
+    <widget class="QComboBox" name="combo_tipo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Apartamento</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Casa</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cobertura</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Chácara</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Flat</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Kitnet</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lote</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QSpinBox" name="spin_quartos">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>130</y>
+       <width>42</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="spin_banheiros">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>160</y>
+       <width>42</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="spin_garagem">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>190</y>
+       <width>42</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="spin_area">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>61</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>99999</number>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="spin_aluguel">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>90</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <double>99999.990000000005239</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Tipo Imóvel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Área</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Aluguel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Quartos</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Banheiros</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>190</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Garagem</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_calcular">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>230</y>
+       <width>111</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Calcular Distancias</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="table_distancias">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>260</y>
+       <width>141</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="autoScroll">
+      <bool>false</bool>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="tabKeyNavigation">
+      <bool>false</bool>
+     </property>
+     <property name="dragDropOverwriteMode">
+      <bool>false</bool>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="cornerButtonEnabled">
+      <bool>false</bool>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>70</number>
+     </attribute>
+     <attribute name="verticalHeaderDefaultSectionSize">
+      <number>23</number>
+     </attribute>
+     <row>
+      <property name="text">
+       <string>Shopping</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Mercado</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Farmácia</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Academia</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Hospital</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Metrô</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Distancia</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Código</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QTableWidget" name="table_outros">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>40</y>
+       <width>120</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>60</number>
+     </attribute>
+     <attribute name="verticalHeaderDefaultSectionSize">
+      <number>23</number>
+     </attribute>
+     <row>
+      <property name="text">
+       <string>Academia</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Churrasqueira</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Jardim</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Piscina</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Playground</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Quadra</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Quintal</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Salão de Festas</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Salão de Jogos</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Aquecimento</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Ar Condicionado</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Elevador</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Vigia</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Área de Serviço</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Escritório</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Varanda</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Check</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Código</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="button_salvar">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>620</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salvar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>428</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
